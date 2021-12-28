@@ -1,0 +1,20 @@
+[
+  {
+    "bitcoin_logo": "assets/icons/bitcoin.svg",
+    "percent": "+12.25%",
+    "transaction_type": "Bitcoin Transactions",
+    "transaction_value": "$10,2536.14"
+  },
+  {
+    "bitcoin_logo": "assets/icons/bitcoin.svg",
+    "percent": "+14.12%",
+    "transaction_type": "Dollar Transactions",
+    "transaction_value": "$25,253.14"
+  },
+  {
+    "bitcoin_logo": "assets/icons/bitcoin.svg",
+    "percent": "+7.25%",
+    "transaction_type": "Pound Transactions",
+    "transaction_value": "$14,214.23"
+  }
+]

@@ -1,0 +1,42 @@
+name: bitcoin_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.0
+  fl_chart: ^0.40.6
+  animate_do: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - lib/json/
+
+  fonts:
+    - family: SFUIDisplay
+      fonts:
+        - asset: fonts/SFUIDisplay-Medium.otf
+        - asset: fonts/SFUIDisplay-Bold.otf
+
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.ttf
