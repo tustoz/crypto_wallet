@@ -1,17 +1,17 @@
-import 'package:bitcoin_app/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:bitcoin_app/screens/home_screen.dart';
 import 'package:bitcoin_app/screens/transaction_screen.dart';
+import 'package:bitcoin_app/constant.dart';
 
-class BottomNavbar extends StatefulWidget {
-  const BottomNavbar({Key? key}) : super(key: key);
+class BottomBar extends StatefulWidget {
+  const BottomBar({Key? key}) : super(key: key);
 
   @override
-  _BottomNavbarState createState() => _BottomNavbarState();
+  _BottomBarState createState() => _BottomBarState();
 }
 
-class _BottomNavbarState extends State<BottomNavbar> {
+class _BottomBarState extends State<BottomBar> {
   final List _page = [const HomeScreen(), const TransactionScreen()];
   int _selectedIndex = 0;
 

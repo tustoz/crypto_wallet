@@ -1,5 +1,5 @@
 name: bitcoin_app
-description: A new Flutter project.
+description: crypto wallet app.
 
 publish_to: "none"
 
@@ -29,14 +29,13 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
-    - lib/json/
 
   fonts:
     - family: SFUIDisplay
       fonts:
-        - asset: fonts/SFUIDisplay-Medium.otf
-        - asset: fonts/SFUIDisplay-Bold.otf
+        - asset: assets/fonts/SFUIDisplay-Medium.otf
+        - asset: assets/fonts/SFUIDisplay-Bold.otf
 
     - family: Inter
       fonts:
-        - asset: fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
