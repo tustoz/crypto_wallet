@@ -1,4 +1,4 @@
-![](https://github.com/tustoz/crypto_wallet/blob/master/crypto-wallet.jpg)
+![](https://github.com/tustoz/crypto_wallet/blob/master/crypto-wallet.png)
 
 # Crypto Wallet App
 
